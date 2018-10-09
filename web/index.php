@@ -10,7 +10,7 @@ if(getenv('APP_ENV') !== 'production') {
     defined('YII_DEBUG') or define('YII_DEBUG', true);
     defined('YII_ENV') or define('YII_ENV', 'dev');
 }
-define("API_HOST", getenv('API_HOST'));
+define("API_HOST", 'localhost:8888');
 
 require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
 

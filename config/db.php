@@ -1,12 +1,12 @@
 <?php
 
-$host = getenv('MYSQL_HOST');
-$dbname = getenv('MYSQL_DATABASE');
+$host = 'localhost';
+$dbname = 'yii2rest';
 
 return [
     'class' => 'yii\db\Connection',
     'dsn' => "mysql:host={$host};dbname={$dbname}",
-    'username' => getenv('MYSQL_USER'),
-    'password' => getenv('MYSQL_PASSWORD'),
+    'username' => 'root',
+    'password' => '1234',
     'charset' => 'utf8',
 ];
