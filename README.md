@@ -4,8 +4,9 @@
 
 по адресу http://localhost:8888/ должен быть Welcome
 
-два Post роута:  
-http://localhost:8888/api/v1/login
+два Post роута: 
+
+http://localhost:8888/api/v1/login  
 http://localhost:8888/api/v1/register
 
 http://localhost:8888/docs - пример документации, там в разделе Auth json которрый надо отправлять, и при авторизации и при регистрации.
